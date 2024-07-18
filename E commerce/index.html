@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerce</title>
+    <link rel="stylesheet" href="imp/css/index.css">
+    <link rel="shortcut icon" href="imp/Images/3094784.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="imp/css/swiper-bundle.min.css">
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class='bx bxs-watch nav__logo-icon'></i> 24 Hour
+            </a>
+    
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">New</a>
+                    </li>
+                </ul>
+    
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+    
+            <div class="nav__btns">
+        
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+    
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag' ></i>
+                </div>
+    
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="imp/Images/f1.jpeg" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Interstellar</h3>
+                    <span class="cart__price">₹4000</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="imp/Images/f3.jpeg" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Daisy</h3>
+                    <span class="cart__price">₹8900</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="imp/Images/new1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Meles</h3>
+                    <span class="cart__price">₹9800</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus' ></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">3 items</span>
+            <span class="cart__prices-total">₹22700</span>
+        </div>
+    </div>
+
+ 
+
+<main class="main">
+
+<section class="home" id="home">
+    <div class="home__container container grid">
+        <div class="home__img-bg">
+            <img src="imp/Images/Home.jpg" alt="" class="home__img">
+        </div>
+
+        <div class="home__social">
+            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                Facebook
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                Twitter
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                Instagram
+            </a>
+        </div>
+
+        <div class="home__data">
+            <h1 class="home__title">NEW WATCH <br> COLLECTIONS X507UA</h1>
+            <p class="home__description">
+                Latest arrival of the new imported watches of the X570 series, 
+                with a modern and resistant design.
+            </p>
+            <span class="home__price">₹5000</span>
+
+            <div class="home__btns">
+                <a href="#" class="button button--gray button--small">
+                    Discover
+                </a>
+
+                <button class="button home__button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="featured section container" id="featured">
+        <h2 class="section__title">
+            Featured
+        </h2>
+
+        <div class="featured__container grid">
+            <article class="featured__card">
+                <span class="featured__tag">Sale</span>
+
+                <img src="imp/Images/f2.jpeg" alt="" class="featured__img">
+
+                <div class="featured__data">
+                    <h3 class="featured__title">Interstellar</h3>
+                    <span class="featured__price">₹4000</span>
+                </div>
+
+                <button class="button featured__button">ADD TO CART</button>
+            </article>
+
+            <article class="featured__card">
+                <span class="featured__tag">Sale</span>
+
+                <img src="imp/Images/f1.jpeg" alt="" class="featured__img">
+
+                <div class="featured__data">
+                    <h3 class="featured__title">Vaghar</h3>
+                    <span class="featured__price">₹2500</span>
+                </div>
+
+                <button class="button featured__button">ADD TO CART</button>
+            </article>
+
+            <article class="featured__card">
+                <span class="featured__tag">Sale</span>
+
+                <img src="imp/Images/f3.jpeg" alt="" class="featured__img">
+
+                <div class="featured__data">
+                    <h3 class="featured__title">Daisy</h3>
+                    <span class="featured__price">₹8900</span>
+                </div>
+
+                <button class="button featured__button">ADD TO CART</button>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="story section container">
+        <div class="story__container grid">
+            <div class="story__data">
+                <h2 class="section__title story__section-title">
+                    OUR PAST
+                </h2>
+
+                <h1 class="story__title">
+                    Designer Watches of<br> the year
+                </h1>
+
+                <p class="story__description">
+                    The latest and premium watches of this year, is available in various 
+                    presentations in this store, discover them now.
+                </p>
+
+                <a href="#" class="button button--small">Discover</a>
+            </div>
+
+            <div class="story__images">
+                <img src="imp/Images/s1.jpeg" alt="" class="story__img">
+                <div class="story__square"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="products section container" id="products">
+        <h2 class="section__title">
+            Top Products
+        </h2>
+        <div class="products__container grid">
+            <article class="products__card">
+                <img src="imp/Images/p1.jpeg" alt="" class="products__img">
+
+                <h3 class="products__title">Brightress</h3>
+                <span class="products__price">₹7500</span>
+
+                <button class="products__button">
+                    <i class='bx bx-shopping-bag'></i>
+                </button>
+            </article>
+            <article class="products__card">
+                <img src="imp/Images/p2.webp" alt="" class="products__img">
+                <h3 class="products__title">Sky high</h3>
+                <span class="products__price">₹4350</span>
+
+                <button class="products__button">
+                    <i class='bx bx-shopping-bag'></i>
+                </button>
+            </article>
+
+            <article class="products__card">
+                <img src="imp/Images/p3.jpeg" alt="" class="products__img">
+
+                <h3 class="products__title">Nebula</h3>
+                <span class="products__price">₹8870</span>
+
+                <button class="products__button">
+                    <i class='bx bx-shopping-bag'></i>
+                </button>
+            </article>
+
+            <article class="products__card">
+                <img src="imp/Images/p4.jpeg" alt="" class="products__img">
+                <h3 class="products__title">Poze</h3>
+                <span class="products__price">₹6050</span>
+
+                <button class="products__button">
+                    <i class='bx bx-shopping-bag'></i>
+                </button>
+            </article>
+
+            <article class="products__card">
+                <img src="imp/Images/p5.jpeg" alt="" class="products__img">
+                <h3 class="products__title">Steampunk</h3>
+                <span class="products__price">₹9150</span>
+
+                <button class="products__button">
+                    <i class='bx bx-shopping-bag'></i>
+                </button>
+            </article>
+
+            <article class="products__card">
+                <img src="imp/Images/p6.jpeg" alt="" class="products__img">
+                <h3 class="products__title">Cyberpunk</h3>
+                <span class="products__price">₹6150</span>
+
+                <button class="products__button">
+                    <i class='bx bx-shopping-bag'></i>
+                </button>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="testimonial section container">
+        <div class="testimonial__container grid">
+                    <div class="testimonial__card">
+                        <div class="testimonial__quote">
+                            <i class='bx bxs-quote-alt-left' ></i>
+                        </div>
+                        <p class="testimonial__description">
+                            At 24 Hour Company, we never thought we will out-do the Edge movement and watch. It was never even thought possible. But with the Edge Mechanical,we have ended up doing just that. An energetic winding of its crown gives it a 42-hour power reserve.
+                        </p>
+                        <h3 class="testimonial__date">May 27, 2023</h3>
+
+                        <div class="testimonial__perfil">
+                            <img src="imp/Images/t1.jpeg" alt="" class="testimonial__perfil-img">
+
+                            <div class="testimonial__perfil-data">
+                                <span class="testimonial__perfil-name">Ashutosh jha</span>
+                                <span class="testimonial__perfil-detail">Director of a company</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card">
+                        <div class="testimonial__quote">
+                            <i class='bx bxs-quote-alt-left' ></i>
+                        </div>
+                        <p class="testimonial__description">
+                            At 24 Hour Company, we never thought we will out-do the Edge movement and watch. It was never even thought possible. But with the Edge Mechanical,we have ended up doing just that. An energetic winding of its crown gives it a 42-hour power reserve.
+                        </p>
+                        <h3 class="testimonial__date">July 30, 2023</h3>
+
+                        <div class="testimonial__perfil">
+                            <img src="imp/Images/t2.jpeg" alt="" class="testimonial__perfil-img">
+
+                            <div class="testimonial__perfil-data">
+                                <span class="testimonial__perfil-name">Sanya sharma</span>
+                                <span class="testimonial__perfil-detail">Director of a company</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card">
+                        <div class="testimonial__quote">
+                            <i class='bx bxs-quote-alt-left' ></i>
+                        </div>
+                        <p class="testimonial__description">
+                            At 24 Hour Company, we never thought we will out-do the Edge movement and watch. It was never even thought possible. But with the Edge Mechanical,we have ended up doing just that. An energetic winding of its crown gives it a 42-hour power reserve.
+                        </p>
+                        <h3 class="testimonial__date">September 3, 2021</h3>
+
+                        <div class="testimonial__perfil">
+                            <img src="imp/Images/t3.jpeg" alt="" class="testimonial__perfil-img">
+
+                            <div class="testimonial__perfil-data">
+                                <span class="testimonial__perfil-name">Shoaib malik</span>
+                                <span class="testimonial__perfil-detail">Director of a company</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="testimonial__images">
+                <div class="testimonial__square"></div>
+                <img src="imp/Images/t.webp" alt="" class="testimonial__img">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="new section container" id="new">
+        <div class="heading">
+        <h2 class="section__title">
+            New In Here!
+        </h2>
+    </div>
+        
+        <div class="new__container">
+            <div class="swiper new-swiper">
+                <div class="swiper-wrapper">
+                    <article class="new__card swiper-slide">
+                        <span class="new__tag">New</span>
+
+                        <img src="imp/Images/new1.png" alt="" class="new__img">
+
+                        <div class="new__data">
+                            <h3 class="new__title">Meles</h3>
+                            <span class="new__price">₹9800</span>
+                        </div>
+
+                        <button class="button new__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="new__card swiper-slide">
+                        <span class="new__tag">New</span>
+
+                        <img src="imp/Images/new2.png" alt="" class="new__img">
+
+                        <div class="new__data">
+                            <h3 class="new__title">Pinocchio</h3>
+                            <span class="new__price">₹11050</span>
+                        </div>
+
+                        <button class="button new__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="new__card swiper-slide">
+                        <span class="new__tag">New</span>
+
+                        <img src="imp/Images/new3.png" alt="" class="new__img">
+
+                        <div class="new__data">
+                            <h3 class="new__title">Greyrust</h3>
+                            <span class="new__price">₹7500</span>
+                        </div>
+
+                        <button class="button new__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="new__card swiper-slide">
+                        <span class="new__tag">New</span>
+
+                        <img src="imp/Images/new4.png" alt="" class="new__img">
+
+                        <div class="new__data">
+                            <h3 class="new__title">Invoke</h3>
+                            <span class="new__price">₹11590</span>
+                        </div>
+
+                        <button class="button new__button">ADD TO CART</button>
+                    </article>                       
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="newsletter section container">
+        <div class="newsletter__bg grid">
+            <div>
+                <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                <p class="newsletter__description">
+                    Don't miss out on your discounts. Subscribe to our email 
+                    newsletter to get the best offers, discounts, coupons, 
+                    gifts and much more.
+                </p>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="683d85a1-6bcc-4777-a5e0-17988cbdd5ad"/>
+                <div class="input-box">
+                <input type="email" placeholder="Enter your mail" class="newsletter__input" name="text">
+            </div>
+                <button class="button">
+                    SUBSCRIBE
+                </button>
+            </form>
+        </div>
+    </section>
+</main>
+
+
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content">
+            <h3 class="footer__title">Our information</h3>
+
+            <ul class="footer__list">
+                <li>Andheri,Mumbai</li>
+                <li>1800 - INDIA</li>
+                <li>123-456-789</li>
+            </ul>
+        </div>
+        <div class="footer__content">
+            <h3 class="footer__title">About Us</h3>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#" class="footer__link">Support Center</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Customer Support</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Copy Right</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Product</h3>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#" class="footer__link">Road bikes</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Mountain bikes</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Electric</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Accesories</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Social</h3>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <script src="imp/js/swiper-bundle.min.js"></script>
+    <script src="imp/js/index.js"></script>
+</body>
+</html>
